@@ -1,0 +1,126 @@
+.sectioninfo{
+    width: 80%;
+    height: 300px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 8px;
+    margin: 10px auto;
+    background: linear-gradient(315deg,#77c4adcd 0%, #cdedae 60%);
+    overflow-y: auto;
+    flex-direction: column;
+} 
+.sectioninfo::-webkit-scrollbar{
+    display: none;
+}   
+
+.lilsection{
+    width: 80%;
+    height: 60px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-between;
+}
+.icosection{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:rgb(219, 255, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 5px;
+    z-index: 10;
+    
+}
+.lilsection p{
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    font-family:'Kavoon', cursive;
+    margin: auto 5px;
+    font-weight: bold;
+
+}
+.iconosection{
+    width: 35px;
+    height: 35px;
+}
+.contentSlid{
+    margin: 5px auto;
+    width: 80%;
+    height: 420px;
+    display: flex;
+    display: block;
+    align-items: center;
+    background-color:#f9f9f9;
+}
+.titleArticle{
+width: 100%;
+height: 10%;
+font-size: 1.2em;
+background:gray;
+color:#fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.gs{
+    background: black;
+}
+.outfit{
+    background:purple;
+}
+.mk{
+    background:#15114c;
+}
+.mc{
+    background: #bf607b;
+}
+.gorra{
+    background-color:#c67193;
+}
+.toy{
+    background-color:greenyellow;
+}    
+.tablaslid{
+    margin:0 auto;
+    width:100%;
+    height:380px;
+    background: #fff;
+    display: flex;
+    overflow-x:auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.tablaslid::-webkit-scrollbar{
+    display: none;
+}
+@media(max-width:800px){
+    .sectioninfo{
+      width: 95%;
+      height: 250px;
+    }
+    .lilsection{
+        width: 95%;
+        height: 60px;
+    }
+    .lilsection p{
+        font-size: 0.8em;
+    }
+    
+.icosection{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.contentSlid{
+    width: 94%;
+    margin: auto;
+    background:#f9f9f9;
+    
+}
+.tablaslid{
+    margin:8px auto;}
+}
